@@ -38,11 +38,29 @@
       "description": "Your Telegram ID",
       "value": ""
     },
+    "DATABASE_URL": {
+      "description": "Your MongoDB URI",
+      "value": ""
+    },
+    "SESSION_NAME": {
+      "description": "Your (mongoDb) Session Name",
+      "value": ""
+    },
+    "BANNED_USERS": {
+      "description": "Banned Unwanted members.., leave that if u don't want to",
+      "value": "",
+      "required": false
+    },
     "CHUNK_SIZE": {
       "description": "chunk size that should be used with requests",
       "value": "128"
     },
-  
+    "HTTP_PROXY": {
+      "description": "proxy for accessing youtube-dl in GeoRestricted Areas. Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061",
+      "value": "",
+      "required": false
+    }
+  },
   "addons": [
   ],
   "buildpacks": [{
